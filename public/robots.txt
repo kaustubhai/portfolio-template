@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
+Sitemap: https://kaustubhai.netlify.app/sitemap.xml
 User-agent: *
 Disallow:

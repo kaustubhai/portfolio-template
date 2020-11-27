@@ -6,8 +6,11 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
+    "aos": "^2.3.4",
+    "jsx-to-string": "^1.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
