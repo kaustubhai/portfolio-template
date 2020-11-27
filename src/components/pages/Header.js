@@ -1,5 +1,7 @@
 import React from 'react';
 import HeaderButton from '../layouts/HeaderButton'
+import { header } from '../../profile'
+
 const Header = ({ name }) => {
 
     const scrollTo = () => {
@@ -27,7 +29,7 @@ const Header = ({ name }) => {
     return (
         <>
             <div className="Header">
-                <h1>{ `I'm ${name}` }</h1>
+                <h1>{ `I'm ${header.name}` }</h1>
             <p className="line-1 anim-typewriter">and this is my portfolio... </p>
             <label className="switch">
                 <input id="mode-switch" onClick={toggleDarkMode} type="checkbox"/>

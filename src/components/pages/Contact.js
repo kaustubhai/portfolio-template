@@ -1,4 +1,5 @@
 import React from 'react'
+import { contact } from '../../profile'
 
 const Contact = () => {
     
@@ -13,7 +14,7 @@ const Contact = () => {
                 <div className="container">
             <div className="git-cont row">
                 <div className="col-12 col-sm-6 half">
-                    <form action="https://formspree.io/mwkraqap" method="POST">
+                    <form action={contact.contactUrl ? contact.contactUrl : "https://formspree.io"} method={contact.contactUrl ? "POST" : "GET"}>
                         <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                         <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                         <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
@@ -23,8 +24,8 @@ const Contact = () => {
                 
                 </div>
                 <div className="col-12 col-sm-6 half">
-                    <p className="lead">Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.
-                        Simply fill the from and send me an email.
+                    <p className="lead">
+                        {contact.pitch}        
                     </p>
                 <center>
                 <div className="inline-block">
@@ -39,7 +40,7 @@ const Contact = () => {
             </div>
             </div>
         </div>
-        <p id="not-dark" className="lead Copy">2020 © Copyright <strong>Kaustubh Mishra</strong>. All Rights Reserved</p>
+            <p id="not-dark" className="lead Copy">2020 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
         </div>
     )
     

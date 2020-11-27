@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from '../layouts/Project'
+import { projects, miscellaneous } from '../../profile'
 
 const Works = () => {
     return (
@@ -11,12 +12,9 @@ const Works = () => {
                     </div>
                 </center>
                 <div className="row">
-                <Project url="https://news-de-voice.web.app/" name="News-De-Voice" skills={["React, Firebase, AlanAI"]}/>
-                <Project url="https://messenger-696.web.app/" name="Messenger" skills={["React, Firebase"]}/>
-                <Project url="https://juit.acm.org" name="ACM-JUIT" skills={["HTML, CSS, JS, Jquery"]}/>
-                <Project url="https://parakram.jyc.co.in" name="Parakram" skills={["HTML, CSS, JS"]}/>
-                <Project url="https://atlancey.com" name="Atlancey" skills={["HTML, CSS, JS"]}/>
-                <Project url="https://posters696.juit.hosting.acm.org" name="Posters696" skills={["WooCommerce, PHP, WP-Bakery"]}/>
+                {projects && projects.map((x) => 
+                <Project url={x.url} name={x.name} skills={x.skills}/>
+                )}
                 </div>
             </div>
 
@@ -27,9 +25,9 @@ const Works = () => {
                     </div>
                 </center>
                 <div className="row">
-                <Project url="https://dribbble.com/kaustubhai" name="Dribbble" />
-                <Project url="https://behance.net/kaustubhai" name="Behance" />
-                <Project url="https://instagram.com/posters696" name="Instagram" />
+                    {miscellaneous && miscellaneous.map((x) => 
+                    <Project url={x.url} name={x.name} />
+                    )}
                 </div>
             </div>
         </>
