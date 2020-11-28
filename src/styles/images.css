@@ -1,7 +1,9 @@
 
+/* Add your profile image here */
 .Photo{
     background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
+/* Projects Photo */
 #project1{
     background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
     cursor: none;    
@@ -26,7 +28,7 @@
     background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
     cursor: none;
 }
-
+/* Miscelaneous Activities photo */
 #misc1{
     background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
     cursor: none;
@@ -39,6 +41,7 @@
     background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
     cursor: none;
 }
+/* Contact form parallax effect image */
 .parallax{
     background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
