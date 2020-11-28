@@ -5,12 +5,15 @@
 
 <p align="center">
   <kbd>
-<img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
+<img src="https://github.com/kaustubhai/portfolio-template/blob/master/public/portfolio-example.gif?raw=true"></img>
   </kbd>
 </p>
 
 
-Just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+Just change `src/profile.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+
+To Update the image go to `src/styles/images.css`  
+To change colors, go to `src/styles/style.css`
 
 But if you want to **contribute** and make this much better for other developer raise a [Issue](https://github.com/kaustubhai/portfolio-template/issues).
 
@@ -21,14 +24,9 @@ If you created something awesome and want to contribute then feel free to open a
 - [Sections](#sections)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
-- [Linking portfolio to Github](#linking-portfolio-to-github)
 - [Change and Customize](#change-and-customize-every-section-according-to-your-need)
 - [Deployment](#deployment)
-- [Technologies Used](#technologies-used)
-- [Illustrations](#illustrations)
 - [For the Future](#for-the-future)
-- [Contributors](#project-maintainers)
-
 ## Sections
 ✔️ Full screen Intro\
 ✔️ About Summary\
