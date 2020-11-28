@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header name="Kaustubh" />
+      <Header />
       <Particles />
       <About />
       <Works />

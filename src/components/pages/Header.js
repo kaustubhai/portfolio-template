@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderButton from '../layouts/HeaderButton'
 import { header } from '../../profile'
 
-const Header = ({ name }) => {
+const Header = () => {
 
     const scrollTo = () => {
         window.scrollTo({
@@ -15,6 +15,7 @@ const Header = ({ name }) => {
     const toggleDarkMode = () =>  {
         document.documentElement.classList.toggle('dark-mode')
         document.getElementById('not-dark').classList.toggle('inverse-dark')
+        document.getElementById('not').classList.toggle('inverse-dark')
         var x = document.getElementsByClassName('img-pro')
         for(let i = 0; i < x.length; i += 1) {
           x.item(i).classList.toggle("inverse-dark");

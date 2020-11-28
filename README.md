@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+# Web Developer React Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/kaustubhai/portfolio-template?color=blue)](https://github.com/kaustubhai/portfolio-template/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/kaustubhai/portfolio-template)](https://github.com/kaustubhai/portfolio-template/stargazers)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A clean, beautiful and responsive react portfolio template for Developers!
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+  <kbd>
+<img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
+  </kbd>
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+But if you want to **contribute** and make this much better for other developer raise a [Issue](https://github.com/kaustubhai/portfolio-template/issues).
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/kaustubhai/portfolio-template/pulls).
 
-### `npm run build`
+## Table of Contents
+- [Sections](#sections)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
+- [Linking portfolio to Github](#linking-portfolio-to-github)
+- [Change and Customize](#change-and-customize-every-section-according-to-your-need)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+- [Illustrations](#illustrations)
+- [For the Future](#for-the-future)
+- [Contributors](#project-maintainers)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Sections
+✔️ Full screen Intro\
+✔️ About Summary\
+✔️ Skills\
+✔️ Projects\
+✔️ Miscellaneous activities\
+✔️ Contact Form\
+✔️ Social Profile\
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To view a live example, **[click here](https://kaustubhai.netlify.app/)**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## How To Use 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+From your command line, clone and run developerFolio:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone this repository
+$ git clone https://github.com/kaustubhai/portfolio-template.git
 
-### Code Splitting
+# Go into the repository
+$ cd portfolio-template
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+$ npm install
 
-### Analyzing the Bundle Size
+#Start's development server
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Change and customize every section according to your need.
 
-### Making a Progressive Web App
+#### Personalize page content in `/src/profile.js` & modify it as per your need.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```javascript
+/* Change this file to get your Personal Porfolio */
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+const header = { .... }
 
-### Deployment
+const about = { .... }
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+const skillsBar = { .... }
 
-### `npm run build` fails to minify
+const projects = { .... }
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+const miscellaneous = { .... }
+
+const contact = { .... }
+
+const social = { .... }
+
+```
+
+
+## Deployment
+When you are done with the setup, you should host your website online.
+We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
+
+
+#### Deploying to Netlify
+
+You could also host directly with Netlify by linking your own repository.
+
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kaustubhai/portfolio-template)
+
+For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
+
+
+## For the Future
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
+
+- Connect with Github API to get Pinned Projects directly
+
+- Add more Interactivity
+
+- Add More Sections
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+---

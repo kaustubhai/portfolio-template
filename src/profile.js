@@ -32,53 +32,55 @@ const projects = [
     {
         id: "project1",
         name: "Project 1",
-        skills: ["React, Firebase, AlanAI"]
+        skills: ["HTML, CSS, JS"],
+        url: "https://github.com/kaustubhai"
     },
     {
         id: "project2",
         name: "Project 2",
-        skills: ["React, Firebase, AlanAI"]
+        skills: ["HTML, CSS, JS"],
+        url: "https://github.com/kaustubhai"
     },
     {
         id: "project3",
         name: "Project 3",
-        skills: ["React, Firebase, AlanAI"],
-        url: "https://dribbble.com/kaustubhai"
+        skills: ["HTML, CSS, JS"],
+        url: "https://github.com/kaustubhai"
     },
     {
         id: "project4",
         name: "Project 4",
-        skills: ["React, Firebase, AlanAI"],
-        url: "https://dribbble.com/kaustubhai"
+        skills: ["HTML, CSS, JS"],
+        url: "https://github.com/kaustubhai"
     },
     {
         id: "project5",
         name: "Project 5",
-        skills: ["React, Firebase, AlanAI"],
-        url: "https://dribbble.com/kaustubhai"
+        skills: ["HTML, CSS, JS"],
+        url: "https://github.com/kaustubhai"
     },
     {
         id: "project6",
         name: "Project 6",
-        skills: ["React, Firebase, AlanAI"],
-        url: "https://dribbble.com/kaustubhai"
+        skills: ["HTML, CSS, JS"],
+        url: "https://github.com/kaustubhai"
     }
 ]
 const miscellaneous = [
     {
         id: "misc1",
         name: "Miscellaneous 1",
-        url: "https://dribbble.com/kaustubhai"
+        url: "https://github.com/kaustubhai"
     },
     {
         id: "misc2",
         name: "Miscellaneous 2",
-        url: "https://dribbble.com/kaustubhai"
+        url: "https://github.com/kaustubhai"
     },
     {
         id: "misc3",
         name: "Miscellaneous 3",
-        url: "https://dribbble.com/kaustubhai"
+        url: "https://github.com/kaustubhai"
     },
 ]
 const contact = {
@@ -91,7 +93,7 @@ const social = {
     facebook: 'https://facebook.com',
     linkedin: 'https://linkedin.com',
     instagram: 'https://instagram.com',
-    resume: ''
+    resume: 'https://novoresume.com/'
 }
 
 export { header, about, skillsBar, projects, miscellaneous, contact, social }
