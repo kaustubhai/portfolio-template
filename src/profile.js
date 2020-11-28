@@ -1,8 +1,8 @@
 const header = {
-    name: "Kaustubh",
+    name: "a Human",
 }
 const about = {
-    paragraph: "Software Engineer who loves to transform ideas into reality using code. I am passionate about using Javascript and Animation Libraries to create awesome user experiences. With over two years of experience developing web applications using the latest front-end and UI/UX development Technologies. Motivated designer and developer with experience creating custom websites with ReactJs, JavaScript, HTML5, and CSS3. Strong collaboration skills and proven history of application development. Wordpress and MySQL."
+    paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Orci phasellus egestas tellus rutrum tellus pellentesque eu. Dapibus ultrices in iaculis nunc. Pretium nibh ipsum consequat nisl vel. Consequat ac felis donec et odio. Orci nulla pellentesque dignissim enim sit amet. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu."
 }
 const skillsBar = [
     {
@@ -31,35 +31,35 @@ const skillsBar = [
 const projects = [
     {
         id: "project1",
-        name: "News-De-Voice",
+        name: "Project 1",
         skills: ["React, Firebase, AlanAI"]
     },
     {
         id: "project2",
-        name: "News-De-Voice",
+        name: "Project 2",
         skills: ["React, Firebase, AlanAI"]
     },
     {
         id: "project3",
-        name: "News-De-Voice",
+        name: "Project 3",
         skills: ["React, Firebase, AlanAI"],
         url: "https://dribbble.com/kaustubhai"
     },
     {
         id: "project4",
-        name: "News-De-Voice",
+        name: "Project 4",
         skills: ["React, Firebase, AlanAI"],
         url: "https://dribbble.com/kaustubhai"
     },
     {
         id: "project5",
-        name: "News-De-Voice",
+        name: "Project 5",
         skills: ["React, Firebase, AlanAI"],
         url: "https://dribbble.com/kaustubhai"
     },
     {
         id: "project6",
-        name: "News-De-Voice",
+        name: "Project 6",
         skills: ["React, Firebase, AlanAI"],
         url: "https://dribbble.com/kaustubhai"
     }
@@ -67,24 +67,24 @@ const projects = [
 const miscellaneous = [
     {
         id: "misc1",
-        name: "Dribbble",
+        name: "Miscellaneous 1",
         url: "https://dribbble.com/kaustubhai"
     },
     {
         id: "misc2",
-        name: "Dribbble",
+        name: "Miscellaneous 2",
         url: "https://dribbble.com/kaustubhai"
     },
     {
         id: "misc3",
-        name: "Dribbble",
+        name: "Miscellaneous 3",
         url: "https://dribbble.com/kaustubhai"
     },
 ]
 const contact = {
-    pitch: "Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you. Simply fill the from and send me an email.",
+    pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
     copyright: "Kaustubh Mishra",
-    contactUrl: 'google.co.in'
+    contactUrl: ''
 }
 
 export { header, about, skillsBar, projects, miscellaneous, contact }

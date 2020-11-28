@@ -1,42 +1,42 @@
 
 .Photo{
-    background-image: url('../images/profile.JPG');
+    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
 #project1{
-    background-image: url('../images/project-images/ACM-JUIT.png');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
     cursor: none;    
 }
 #project2{
-    background-image: url('../images/project-images/Parakram-JUIT.png');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
     cursor: none;
 }
 #project3{
-    background-image: url('../images/project-images/Atlancey.png');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
     cursor: none;
 }
 #project4{
-    background-image: url('../images/project-images/Posters696.png');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
     cursor: none;
 }
 #project5{
-    background-image: url('../images/project-images/News-De-Voice.png');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
     cursor: none;
 }
 #project6{
-    background-image: url('../images/project-images/Messenger.png');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
     cursor: none;
 }
 
 #misc1{
-    background-image: url('../images/profile-Images/Dribbble.png');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
     cursor: none;
 }
 #misc2{
-    background-image: url('../images/profile-Images/Behance.png');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
     cursor: none;
 }
 #misc3{
-    background-image: url('../images/profile-Images/Instagram.png');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
     cursor: none;
 }
 .parallax{
