@@ -91,7 +91,8 @@ const miscellaneous = [
         url: "https://github.com/kaustubhai"
     },
     {
-        // Add image in './styles/images.css' in #misc2        id: "misc2",
+        // Add image in './styles/images.css' in #misc2        
+        id: "misc2",
         name: "Miscellaneous 2",
         url: "https://github.com/kaustubhai"
     },
