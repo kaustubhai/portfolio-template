@@ -1,5 +1,5 @@
 import React from 'react'
-import { contact } from '../../profile'
+import { contact, social } from '../../profile'
 
 const Contact = () => {
     
@@ -29,10 +29,10 @@ const Contact = () => {
                     </p>
                 <center>
                 <div className="inline-block">
-                <a title="Visit Github profile"  rel="noopener noreferrer" target="_blank" href="https://github.com/kaustubhai" ><i className="fab fa-github"></i></a>
-                <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank"  href="https://linkedin.com/kaustubhai"><i className="fab fa-linkedin"></i></a>
-                <a title="Visit Facebok profile" rel="noopener noreferrer" target="_blank"  href="https://facebook.com/kaustubhai"><i className="fab fa-facebook"></i></a>
-                <a title="Visit Instagram profile" rel="noopener noreferrer" target="_blank"  href="https://instagram.com/kaustubhai"><i className="fab fa-instagram"></i></a><br></br>
+                {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank"  href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
+                {social.facebook && <a title="Visit Facebok profile" rel="noopener noreferrer" target="_blank" href={social.facebook}><i className="fab fa-facebook"></i></a>}
+                {social.instagram && <a title="Visit Instagram profile" rel="noopener noreferrer" target="_blank" href={social.instagram}><i className="fab fa-instagram"></i></a>}
+                {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
                 <a title="Download Resume" href="docs/Kaustubh.pdf" download><i className="fas fa-download"></i></a>
                 </div>
                 </center>

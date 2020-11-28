@@ -86,5 +86,12 @@ const contact = {
     copyright: "Kaustubh Mishra",
     contactUrl: ''
 }
+const social = {
+    github: 'https://github.com',
+    facebook: 'https://facebook.com',
+    linkedin: 'https://linkedin.com',
+    instagram: 'https://instagram.com',
+    resume: ''
+}
 
-export { header, about, skillsBar, projects, miscellaneous, contact }
+export { header, about, skillsBar, projects, miscellaneous, contact, social }
