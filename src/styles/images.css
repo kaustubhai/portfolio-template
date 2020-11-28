@@ -1,0 +1,44 @@
+
+.Photo{
+    background-image: url('../images/profile.JPG');
+}
+#project1{
+    background-image: url('../images/project-images/ACM-JUIT.png');
+    cursor: none;    
+}
+#project2{
+    background-image: url('../images/project-images/Parakram-JUIT.png');
+    cursor: none;
+}
+#project3{
+    background-image: url('../images/project-images/Atlancey.png');
+    cursor: none;
+}
+#project4{
+    background-image: url('../images/project-images/Posters696.png');
+    cursor: none;
+}
+#project5{
+    background-image: url('../images/project-images/News-De-Voice.png');
+    cursor: none;
+}
+#project6{
+    background-image: url('../images/project-images/Messenger.png');
+    cursor: none;
+}
+
+#misc1{
+    background-image: url('../images/profile-Images/Dribbble.png');
+    cursor: none;
+}
+#misc2{
+    background-image: url('../images/profile-Images/Behance.png');
+    cursor: none;
+}
+#misc3{
+    background-image: url('../images/profile-Images/Instagram.png');
+    cursor: none;
+}
+.parallax{
+    background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}

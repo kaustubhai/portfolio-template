@@ -27,7 +27,7 @@ const Header = ({ name }) => {
         }
 
     return (
-        <>
+        <div>
             <div className="Header">
                 <h1>{ `I'm ${header.name}` }</h1>
             <p className="line-1 anim-typewriter">and this is my portfolio... </p>
@@ -37,8 +37,8 @@ const Header = ({ name }) => {
             </label>
             <HeaderButton/>
             </div>
-            <img onClick={scrollTo} alt="Go to top" title="Go to top" className="gtp" src="profile.svg"></img>
-        </>
+            <img id="not-dark" onClick={scrollTo} alt="Go to top" title="Go to top" className="gtp" src="profile.png"></img>
+        </div>
     )
     
 }

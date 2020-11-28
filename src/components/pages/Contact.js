@@ -19,7 +19,7 @@ const Contact = () => {
                         <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                         <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
                         <textarea id="msg" name="message" placeholder="Message" required></textarea>
-                        <button type="submit"><label id="not-dark">Send Message</label></button>
+                        <button style={{cursor: 'pointer'}} type="submit"><label style={{cursor: 'pointer'}} id="not-dark">Send Message</label></button>
                     </form>
                 
                 </div>

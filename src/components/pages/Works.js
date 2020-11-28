@@ -13,7 +13,7 @@ const Works = () => {
                 </center>
                 <div className="row">
                 {projects && projects.map((x) => 
-                <Project url={x.url} name={x.name} skills={x.skills}/>
+                <Project id={x.id} url={x.url} name={x.name} skills={x.skills}/>
                 )}
                 </div>
             </div>
@@ -26,7 +26,7 @@ const Works = () => {
                 </center>
                 <div className="row">
                     {miscellaneous && miscellaneous.map((x) => 
-                    <Project url={x.url} name={x.name} />
+                    <Project id={x.id} url={x.url} name={x.name} />
                     )}
                 </div>
             </div>

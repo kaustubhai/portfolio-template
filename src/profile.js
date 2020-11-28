@@ -30,30 +30,35 @@ const skillsBar = [
 ]
 const projects = [
     {
+        id: "project1",
         name: "News-De-Voice",
         skills: ["React, Firebase, AlanAI"]
     },
     {
+        id: "project2",
+        name: "News-De-Voice",
+        skills: ["React, Firebase, AlanAI"]
+    },
+    {
+        id: "project3",
         name: "News-De-Voice",
         skills: ["React, Firebase, AlanAI"],
         url: "https://dribbble.com/kaustubhai"
     },
     {
+        id: "project4",
         name: "News-De-Voice",
         skills: ["React, Firebase, AlanAI"],
         url: "https://dribbble.com/kaustubhai"
     },
     {
+        id: "project5",
         name: "News-De-Voice",
         skills: ["React, Firebase, AlanAI"],
         url: "https://dribbble.com/kaustubhai"
     },
     {
-        name: "News-De-Voice",
-        skills: ["React, Firebase, AlanAI"],
-        url: "https://dribbble.com/kaustubhai"
-    },
-    {
+        id: "project6",
         name: "News-De-Voice",
         skills: ["React, Firebase, AlanAI"],
         url: "https://dribbble.com/kaustubhai"
@@ -61,14 +66,17 @@ const projects = [
 ]
 const miscellaneous = [
     {
+        id: "misc1",
         name: "Dribbble",
         url: "https://dribbble.com/kaustubhai"
     },
     {
+        id: "misc2",
         name: "Dribbble",
         url: "https://dribbble.com/kaustubhai"
     },
     {
+        id: "misc3",
         name: "Dribbble",
         url: "https://dribbble.com/kaustubhai"
     },
