@@ -40,7 +40,7 @@ const Contact = () => {
             </div>
             </div>
         </div>
-            <p id="not-dark" className="lead Copy">2020 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
+            <p id="not-dark" className="Copy">2020 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
         </div>
     )
     
