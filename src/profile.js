@@ -2,6 +2,10 @@
 const header = {
     name: "a Human",
 }
+const background = {
+    // Options: Snow or Particle
+    type: "Particle"
+}
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const about = {
@@ -121,4 +125,4 @@ const social = {
     resume: 'https://novoresume.com/'
 }
 // Dont change anything here
-export { header, about, skillsBar, projects, miscellaneous, contact, social }
+export { header, background, about, skillsBar, projects, miscellaneous, contact, social }
