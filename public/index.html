@@ -25,7 +25,7 @@
   </body>
   <script>
 	const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-	if(darkPref && localStorage.getItem('mode') !== "Light")
+	if(darkPref.matches && localStorage.getItem('mode') !== "Light")
       localStorage.setItem('mode', 'Dark')
   </script>
   <script>
