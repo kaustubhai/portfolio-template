@@ -24,6 +24,11 @@
     <div id="root"></div>
   </body>
   <script>
+	const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+	if(darkPref && localStorage.getItem('mode') !== "Light")
+      localStorage.setItem('mode', 'Dark')
+  </script>
+  <script>
     const fun = () => {
     if(localStorage.getItem('mode') === 'Dark'){
       document.getElementById('mode-switch').checked = true;
