@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from '../layouts/Project'
-import { projects, miscellaneous } from '../../profile'
+import { projects, miscellaneous, section3Title, section4Title } from '../../profile'
 
 const Works = () => {
     return (
@@ -8,7 +8,7 @@ const Works = () => {
             <div data-aos="zoom-in-up" data-aos-once="true" className="third">
                 <center>
                     <div className="pp-head-line">
-                        <h1 id="Projects" className="red-line pp-head">Past Projects</h1>
+                        <h1 id="Projects" className="red-line pp-head">{section3Title}</h1>
                     </div>
                 </center>
                 <div className="row">
@@ -21,7 +21,7 @@ const Works = () => {
             <div className="third">
                 <center>
                     <div className="pp-head-line">
-                        <h1 id="Projects" className="red-line pp-head">Miscellaneous</h1>
+                        <h1 id="Projects" className="red-line pp-head">{section4Title}</h1>
                     </div>
                 </center>
                 <div className="row">

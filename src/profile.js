@@ -8,6 +8,7 @@ const background = {
 }
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
+const section2title = "About Me"
 const about = {
     paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Orci phasellus egestas tellus rutrum tellus pellentesque eu. Dapibus ultrices in iaculis nunc. Pretium nibh ipsum consequat nisl vel. Consequat ac felis donec et odio. Orci nulla pellentesque dignissim enim sit amet. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu."
 }
@@ -40,6 +41,7 @@ const skillsBar = [
 // Edit your projects, its name, your skills used to make it, and the url. 
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
+const section3Title = "Past Projects"
 const projects = [
     {
         // Add image in './styles/images.css' in #project1
@@ -87,6 +89,7 @@ const projects = [
 // Edit your Miscellaneous Activities, its name and the url. 
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
+const section4Title = "Miscellaneous"
 const miscellaneous = [
     {
         // Add image in './styles/images.css' in #misc1
@@ -110,6 +113,7 @@ const miscellaneous = [
 // Contact form text, and Jotforms link
 // To get your own jotform link, go to https://www.jotform.com/
 // If you hacve the link already, paste it in the contactUrl below
+const section5Title = "Get in Touch"
 const contact = {
     pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
     copyright: "Kaustubh Mishra",
@@ -125,4 +129,4 @@ const social = {
     resume: 'https://novoresume.com/'
 }
 // Dont change anything here
-export { header, background, about, skillsBar, projects, miscellaneous, contact, social }
+export { header, background, about, skillsBar, projects, miscellaneous, contact, social, section2title, section3Title, section4Title, section5Title }
