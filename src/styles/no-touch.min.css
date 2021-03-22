@@ -7,6 +7,9 @@ body {
   cursor: crosshair;
   background-color: #fff;
 }
+html.dark-mode{
+  background-color: #000;
+}
 .lead {
   font-weight: 400;
 }
@@ -129,7 +132,7 @@ body {
 .project-card {
   padding: 15px;
   margin-top: 15px;
-  box-shadow: 0 4px 6px -4px #868686;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 .project-card h2 {
   color: var(--primary-color);
