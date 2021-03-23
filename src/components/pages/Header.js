@@ -6,7 +6,7 @@ const Header = () => {
 
     const scrollTo = () => {
         window.scrollTo({
-            top: 0,
+            top: 100000,
             left: 0,
             behavior: "smooth"
         })
@@ -38,7 +38,7 @@ const Header = () => {
             </label>
             <HeaderButton/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Go to top" title="Go to top" className="gtp" src="profile.png"></img>
+            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="profile.png"></img>
         </div>
     )
     

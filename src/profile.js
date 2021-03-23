@@ -1,3 +1,12 @@
+// Change website animations
+const animation = {
+    // make it false to switch off fade-up animation
+    animate: true,
+    // animation playing duration
+    duration: 750,
+    // if false, animation plays everytime element comes on screen
+    once: true
+}
 // Change your display name on tha landing display
 const header = {
     name: "a Human",
@@ -17,26 +26,53 @@ const about = {
 const skillsBar = [
     {
         name: "HTML5",
-        value: 75
+        faClass: "fab fa-html5"
     },{
         name: "CSS3",
-        value: 85
+        faClass: "fab fa-css3"
     },{
         name: "Javascript",
-        value: 80
+        faClass: "fab fa-js"
     },{
-        name: "React",
-        value: 75
+        name: "SASS",
+        faClass: "fab fa-sass"
     },{
         name: "Node",
-        value: 85
+        faClass: "fab fa-node"
     },{
-        name: "Mongoose",
-        value: 70
+        name: "Python",
+        faClass: "fab fa-python"
     },{
-        name: "Adobe XD",
-        value: 75
-    },
+        name: "Java",
+        faClass: "fab fa-java"
+    },{
+        name: "PHP",
+        faClass: "fab fa-php"
+    },{
+        name: "Database",
+        faClass: "fas fa-database"
+    },{
+        name: "AWS",
+        faClass: "fab fa-aws"
+    },{
+        name: "Docker",
+        faClass: "fab fa-docker"
+    },{
+        name: "NPM",
+        faClass: "fab fa-npm"
+    },{
+        name: "Heroku",
+        faClass: "fas fa-h-square"
+    },{
+        name: "Swift",
+        faClass: "fab fa-swift"
+    },{
+        name: "Linux",
+        faClass: "fab fa-linux"
+    },{
+        name: "Wordpress",
+        faClass: "fab fa-wordpress"
+    }
 ]
 // Edit your projects, its name, your skills used to make it, and the url. 
 // You can omit freely anything if you dont have it
@@ -129,4 +165,4 @@ const social = {
     resume: 'https://novoresume.com/'
 }
 // Dont change anything here
-export { header, background, about, skillsBar, projects, miscellaneous, contact, social, section2title, section3Title, section4Title, section5Title }
+export { animation, header, background, about, skillsBar, projects, miscellaneous, contact, social, section2title, section3Title, section4Title, section5Title }

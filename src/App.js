@@ -6,15 +6,17 @@ import Works from './components/pages/Works'
 import Contact from './components/pages/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { animation } from './profile'
 
 
 function App() {
 
   useEffect(() => {
-    AOS.init({
-      duration: 750,
-      once: true
-    })
+      AOS.init({
+        duration: animation.duration,
+        once: animation.once,
+        disable: !animation.animate
+      })
 // eslint-disable-next-line
   }, [])
 

@@ -4,11 +4,13 @@
 body {
   margin: 0;
   padding: 0;
-  cursor: crosshair;
   background-color: #fff;
 }
 html.dark-mode{
   background-color: #000;
+}
+button:focus{
+  outline: 1px solid #777 !important;
 }
 .lead {
   font-weight: 400;
@@ -45,7 +47,7 @@ html.dark-mode{
   text-decoration-color: var(--primary-color);
 }
 .skills {
-  padding: 10%;
+  padding: 3%;
 }
 .progress-block {
   padding: 10px 0;
@@ -69,6 +71,7 @@ html.dark-mode{
   background: #fff;
   padding: 5%;
   margin: 10% auto;
+  border-bottom: solid 1px #777 !important;
 }
 .effect2:after,
 .effect2:before {
@@ -121,6 +124,24 @@ html.dark-mode{
   padding-bottom: 5px;
   border-bottom: solid 2pxvar (--primary-color);
   margin-bottom: 15px;
+}
+.skill__square{
+  display: inline;
+  margin: 15px 0px !important;
+}
+.skill__square i{
+  font-size: 50px !important;
+  color: #777 !important;
+  height: 20px;
+}
+.skill__square h6{
+  text-align: center;
+  margin: auto;
+  font-size: 1em;
+  padding-top: 5px;
+}
+.skill__square i:hover{
+  color: #ff4753 !important;
 }
 .third {
   width: 75%;
@@ -265,7 +286,7 @@ textarea:focus {
   display: flex;
   flex-direction: row;
 }
-.fab {
+.git-cont .fab {
   vertical-align: bottom;
   padding: 10px;
   font-size: 30px;
@@ -275,14 +296,14 @@ textarea:focus {
   color: var(--primary-color);
   transition: 0.5;
 }
-.fab:hover {
+.git-cont .fab:hover {
   color: var(--hover-color);
 }
-.fas {
+.git-cont .fas {
   vertical-align: bottom;
-  padding: 25px;
   font-size: 40px;
   height: 30px;
+  margin: 25px;
   text-align: center;
   text-decoration: none;
   color: #000;
@@ -318,6 +339,7 @@ textarea:focus {
   height: 150px;
   top: 82%;
   z-index: 1002;
+  cursor: crosshair;
 }
 .see {
   background-color: var(--primary-color);
@@ -517,5 +539,9 @@ input:checked + .slider:before {
   }
   .fa-eye {
     font-size: 20px;
+  }
+  .half form button{
+    margin-left: auto;
+    margin-right: auto;
   }
 }
