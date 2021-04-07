@@ -2,8 +2,6 @@ import React from 'react'
 import Skills from '../layouts/Skills'
 import { about, skillsBar, section2title } from '../../profile'
 
-console.log()
-
 const About = () => {
     return (
         <div id="about" className="effect2">
