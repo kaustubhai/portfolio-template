@@ -138,8 +138,8 @@ const miscellaneous = [
     url: "https://github.com/kaustubhai",
   },
 ];
-// Contact form text, and Jotforms link
-// To get your own jotform link, go to https://www.jotform.com/
+// Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
+// To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch";
 const contact = {
