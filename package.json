@@ -11,6 +11,7 @@
     "react-dom": "^17.0.1",
     "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.1",
+    "tsparticles": "1.33.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
